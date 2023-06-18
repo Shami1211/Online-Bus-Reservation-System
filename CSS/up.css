@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body{
+  background-image:url(ash-gerlach-6fF-Ojxov6o-unsplash.jpg);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+.p
+{
+color: white;
+ border : solid white 2px;
+ width:500px;
+ padding:50px;
+border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.186);
+}
+.n{
+	
+	padding-left: 410px;
+	
+}
+
+.input{
+  height: 35px;
+  width: 95%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fafafa;
+  border:2px;
+  border-color: black;
+ font-size: 15px;
+  font-weight: bold;
+}
+.topic2{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.date{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2rem;
+  display: block;
+  height: 35px;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.addres{
+  height: 100px;
+  width: 95%;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+/* CSS */
+.button-31 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}

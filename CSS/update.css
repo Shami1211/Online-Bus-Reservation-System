@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+  background-image:url(ash-gerlach-6fF-Ojxov6o-unsplash.jpg);
+  background-size: 100% 120%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+}
+
+.p
+{
+
+ border : solid white 2px;
+ width:500px;
+ padding:50px;
+}

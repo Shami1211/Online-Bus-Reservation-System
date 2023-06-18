@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+			version="3.1">
+			
+			<servlet>
+				<servlet-name>BusInsert</servlet-name>
+				<servlet-class>com.bus.BusInsert</servlet-class>
+			</servlet>
+			<servlet-mapping>
+				<servlet-name>BusInsert</servlet-name>
+				<url-pattern>/BusIn</url-pattern>
+			</servlet-mapping>
+			
+			
+			<servlet>
+				<servlet-name>updateBusTime</servlet-name>
+				<servlet-class>com.bus.UpdateBusTime</servlet-class>
+			</servlet>
+			<servlet-mapping>
+				<servlet-name>updateBusTime</servlet-name>
+				<url-pattern>/updatebus</url-pattern>
+			</servlet-mapping>
+			
+			
+			<servlet>
+				<servlet-name>busValidate</servlet-name>
+				<servlet-class>com.bus.BusValidate</servlet-class>
+			</servlet>
+			<servlet-mapping>
+				<servlet-name>busValidate</servlet-name>
+				<url-pattern>/search</url-pattern>
+			</servlet-mapping>
+			
+			
+			<servlet>
+				<servlet-name>busDelete</servlet-name>
+				<servlet-class>com.bus.BusDelete</servlet-class>
+			</servlet>
+			<servlet-mapping>
+				<servlet-name>busDelete</servlet-name>
+				<url-pattern>/delete</url-pattern>
+			</servlet-mapping>
+			
+			
+			<servlet>
+				<servlet-name>timeValidate</servlet-name>
+				<servlet-class>com.booking.TimeValidate</servlet-class>
+			</servlet>
+			<servlet-mapping>
+				<servlet-name>timeValidate</servlet-name>
+				<url-pattern>/getTime</url-pattern>
+			</servlet-mapping>
+			
+			<servlet>
+				<servlet-name>Booking</servlet-name>
+				<servlet-class>com.booking.BookingInsert</servlet-class>
+			</servlet>
+			<servlet-mapping>
+				<servlet-name>Booking</servlet-name>
+				<url-pattern>/payment</url-pattern>
+			</servlet-mapping>
+			
+			
+			<servlet>
+    <description></description>
+    <display-name>HelloServlet</display-name>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.user.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/HelloServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>BusBookingSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>busLogin.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>RegisterServlet</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ForgotPasswordServlet</display-name>
+    <servlet-name>ForgotPasswordServlet</servlet-name>
+    <servlet-class>com.user.ForgotPasswordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ForgotPasswordServlet</servlet-name>
+    <url-pattern>/ForgotPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ChangePassword</display-name>
+    <servlet-name>ChangePassword</servlet-name>
+    <servlet-class>com.user.ChangePassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePassword</servlet-name>
+    <url-pattern>/ChangePassword</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ManageState</display-name>
+    <servlet-name>ManageState</servlet-name>
+    <servlet-class>com.user.ManageState</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManageState</servlet-name>
+    <url-pattern>/ManageState</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
